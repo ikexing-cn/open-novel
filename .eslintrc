@@ -1,0 +1,14 @@
+{
+  "extends": "@antfu",
+  "rules": {
+    "no-console": "off",
+    "comma-dangle": "off",
+    "@typescript-eslint/comma-dangle": [
+      "off"
+    ],
+    "brace-style": ["warn", "1tbs"],
+    "@typescript-eslint/brace-style": ["warn", "1tbs"],
+    "vue/brace-style": ["warn", "1tbs"],
+    "antfu/if-newline": "off"
+  }
+}
